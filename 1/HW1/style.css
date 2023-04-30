@@ -1,0 +1,115 @@
+*{
+    margin: 20px 10px 20px 10px;
+    font-size:14px;
+}
+.phone img{
+    width: 450px;
+    height: 650px;
+    float: left;
+}
+.loginBox{
+    width: 380px;
+    height: 440px;
+    border: 1px solid lightgray;
+    float: left;
+    text-align: center;
+}
+.loginBox .logo img{
+    width: 200px;
+    height: 75px;
+    margin: 0;
+}
+#id{ /*input의 id에 접근하기 위해서는 #을 사용해야 한다!!*/
+    width: 300px;
+    height: 35px; 
+    background-color: #fafafa; 
+    border: 1px solid lightgray; 
+    border-radius: 2px;
+    margin:0;
+}
+#password{
+   width: 300px; 
+   height: 35px; 
+   background-color: #fafafa; 
+   border: 1px solid lightgray; 
+   border-radius: 2px;
+   flex-direction: center;
+}
+.loginBox .check{
+    margin:0;   
+    justify-content: start;
+}
+#btn{
+    width: 300px; 
+    height: 35px; 
+    color: white;
+    background-color: #0095f6;
+    border: 0; 
+    border-radius: 8px;
+    flex-direction: center;
+}
+.loginBox .or{
+    margin:0;
+    color: gray;
+
+}
+.loginBox .facebookLogo img{
+    width: 30px;
+    height: 30px;
+
+    position: relative;
+    top: -45px;
+    right:85px;
+    margin:0;
+}
+.facebookLink >a{ /*부모요소와 자식요소는 >로 구분한다 !!*/
+    text-decoration-line: none;
+    color : #3B5998;
+    font-weight: bold;
+}
+.loginBox .facebookLink{
+    position: relative;
+    top: -90px;
+    margin:0;
+}
+.loginBox .forget{
+    position: relative;
+    margin:0;
+    top:-60px;
+    right:10px;
+}
+.forget > a{
+    text-decoration-line: none;
+    color : black;
+}
+.joinBox{
+    width: 380px;
+    height: 55px;
+    border: 1px solid lightgray;
+
+    float: left;
+    text-align: center;
+    position: relative;
+    top:-20px;
+    right:20px;
+    margin:0;
+}
+.joinBox > p > a{
+    text-decoration-line: none;
+    color :  #0095f6;
+}
+.loginBox .download{
+    position: relative;
+    top:5px;
+    margin:0;
+}
+.loginBox .downloadImg img{
+    width: 140px;
+    height: 40px;
+}
+.loginBox .downloadImg{
+    position: relative;
+    top:50px;
+    left: 80px; 
+    margin:0;
+}

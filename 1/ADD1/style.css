@@ -1,0 +1,71 @@
+/*하늘색 : #a7e7ff
+회색 : #676767
+초록색 : #3b914f
+배경색 : #eae5df
+*/
+*{
+    margin: 10px 20px 10px 20px;
+}
+body{
+    background-color: #eae5df;
+}
+h1{
+    font-size:120px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+span{
+    font-size:60px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*수평선은 hr태그로 구현!!*/
+hr{
+    width: 600px; 
+}
+.leftWords{
+    font-size : 15px;
+    line-height: 20%;
+    font-weight: bold;
+    margin: 10px;
+}
+.rightWords{
+    font-size : 15px;
+    font-weight: bold;
+    line-height: 20%;
+    margin: 10px;
+}
+.address{
+    font-weight: bold;
+}
+.word{
+    display : flex;
+    flex-direction : row;
+    white-space:nowrap;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-gap:50px;
+}
+#circle1, #circle2,#circle3{
+    background-color: #a7e7ff;
+    width: 160px;
+    height: 160px;
+    border-radius:50%;
+}
+#circle4, #circle5, #circle6{
+    background-color: #676767;
+    width: 160px;
+    height: 160px;
+    border-radius:50%;
+}
+#circle7, #circle8, #circle9{
+    background-color: #3b914f;
+    width: 160px;
+    height: 160px;
+    border-radius:50%;
+}

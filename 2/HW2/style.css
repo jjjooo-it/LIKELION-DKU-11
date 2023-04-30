@@ -1,0 +1,76 @@
+body{
+    margin: 50px;
+    background-image: url('img/배경.jpeg');
+    background-size: cover;
+}
+.bar{
+    font-size: 20px;
+    text-align: end;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+.total{
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.aboutme{
+    background-color: floralwhite;
+    color: black;
+    border-radius: 30px;
+    width: 300px;
+    height: 160px;
+    font-size: 20px;
+    padding: 10px 0;
+
+    margin-top: 30px;
+    margin-right: 10px;
+    
+}
+.container2 > p{
+    background-color: floralwhite;
+    color: black;
+    border-radius: 15px;
+    width: 310px;
+    height: 20px;
+    font-size: 18px;
+    text-align: center;
+    padding : 10px 0px 10px 0px;
+}
+.photo{
+    display: grid;
+    grid-template-columns: 160px 160px;
+    grid-template-rows: 210px 210px;
+}
+.container3{
+    background-color: floralwhite;
+    color: black;
+    border-radius: 30px;
+    width: 300px;
+    height: 230px;
+    font-size: 17px;
+
+    margin-top:10px;
+    text-align: center;
+}
+.container4{
+    background-color: floralwhite;
+    color: black;
+    border-radius: 30px;
+    width: 300px;
+    height: 230px;
+    font-size: 17px;
+
+    text-align: center;
+    margin-top:10px;
+}
+.smalltotal{
+    display : flex;
+    flex-direction: column;
+}
+
+
+

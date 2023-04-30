@@ -1,0 +1,70 @@
+<!--질문)) css작성시 각 요소(ex.로고,버튼,글자등)의 위치를 posiotion:relative로
+    pixel 값을 통해 노가다(?)로 잡았는데, 이렇게 하는게 맞나요? 왼쪽 정렬, 중앙정렬같은 코드가 따로 있나요?--->
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제1 : instagram login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!---------------------------------------------->
+    <div class="phone">
+        <img src="./핸드폰.png" alt="핸드폰"/>
+    </div>
+<!---------------------------------------------->
+    <div class="loginBox">
+
+        <div class="logo">
+            <img src="./인스타.png" alt="인스타"/>
+        </div>
+
+       <div class="login">
+         <input type="text" id="id" placeholder="전화번호,사용자 이름 또는 이메일" >
+         <input type="text" id="password" placeholder="비밀번호">
+       </div>
+
+       <div class="check">
+         <label><input type="checkbox" id="check">로그인 정보 저장하기</label>
+       </div>
+
+       <div class="loginBtn">
+          <input type="button" id="btn" value="로그인">
+       </div>
+  
+        <div class="or"> <!--공백은 &nbsp으로 구현한다!!-->
+            <p>──────────&nbsp&nbsp&nbsp&nbsp&nbsp또는&nbsp&nbsp&nbsp&nbsp&nbsp──────────</p>
+        </div>
+
+        <div class="facebookLogo">
+            <img src="./페이스북.svg" alt="페이스북">
+        <div>
+        
+        <div class="facebookLink">
+            <a href="https://ko-kr.facebook.com/"> Facebook으로 로그인</a>
+        </div>
+
+        <div class="forget">
+            <a href="https://www.instagram.com/accounts/password/reset/"> 비밀번호를 잊으셨나요?</a>
+        </div>
+
+    </di>
+<!---------------------------------------------->
+    <div class="joinBox">
+        <p>계정이 없으신가요? <a href="https://www.instagram.com/accounts/emailsignup/"> 가입하기</a></p>
+    </div>
+<!---------------------------------------------->
+    <div class="download">
+        <p>앱을 다운로드하세요.</p>
+    </div>
+    <div class="downloadImg"> 
+        <img src="./구글다운로드.png" alt="구글다운로드">
+        <img src="./마이크로소프트.png" alt="마이크로소프트">
+    </div>
+
+</body>
+</html>
